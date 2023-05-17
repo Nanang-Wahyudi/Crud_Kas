@@ -15,10 +15,10 @@ const app = express();
 
 //konfigurasi koneksi
 const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'db_lingkom'
+    host: 'bbdbexx0riifqx9ajbom-mysql.services.clever-cloud.com',
+    user: 'u9nqrlmvhpcabtue',
+    password: 'u9nqrlmvhpcabtue',
+    database: 'bbdbexx0riifqx9ajbom'
 });
 
 //connect ke database
